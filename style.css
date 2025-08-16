@@ -60,7 +60,7 @@ h1 {
 
 #botao-palavrapasse {
     display: flex;
-    padding: 1.25rem;
+    padding: 1.0rem;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
