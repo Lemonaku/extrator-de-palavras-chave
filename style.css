@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-destaque: #ed146e;
+    --cor-destaque: #144aed;
     --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #1E2021 44.96%, #1E2022 100%);
 }
 
@@ -58,7 +58,7 @@ h1 {
     line-height: normal;
 }
 
-#botao-palavrachave {
+#botao-palavrapasse {
     display: flex;
     padding: 1.25rem;
     justify-content: center;
@@ -73,7 +73,7 @@ h1 {
     line-height: normal;
 }
 
-#resultado-palavrachave {
+#resultado-palavrapasse {
     display: flex;
     border-radius: 0.625rem;
     align-self: stretch;
