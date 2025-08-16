@@ -5,12 +5,12 @@ botaoExibePalavras.addEventListener('click', exibePalavrasPasse);
 function exibePalavrasPasse() {
     const texto = document.querySelector('#escrita-de-texto').value;
     const campoProduto = document.querySelector('#produto-palavrapasse');
-    const palavrasPasse = processaCitacao(texto);
+    const palavrasPasse = carregaTexto(texto);
 
     campoProduto.textContent = palavrasPasse.join(", ");
 }
 
-function processaCitacao(texto) {
+function carregaTexto(texto) {
     let palavras = texto.split(/\P{L}+/u);
 
     let frequencias = {};
