@@ -4,10 +4,10 @@ botaoExibePalavras.addEventListener('click', exibePalavrasPasse);
 
 function exibePalavrasPasse() {
     const texto = document.querySelector('#escrita-de-texto').value;
-    const campoResultado = document.querySelector('#resultado-palavrapasse');
+    const campoProduto = document.querySelector('#produto-palavrapasse');
     const palavrasPasse = processaTexto(texto);
 
-    campoResultado.textContent = palavrasPasse.join(", ");
+    campoProduto.textContent = palavrasPasse.join(", ");
 }
 
 function processaTexto(texto) {
